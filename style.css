@@ -1,0 +1,92 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* fixed=parallax, scroll=normal */
+  background-attachment: fixed;
+}
+
+.pimg1{
+  background-image: url('./img/nature.jpg');
+  min-height: 70%;
+}
+.pimg2{
+  background-image: url('./img/automne.jpg');
+  min-height: 70%;
+}
+.pimg3{
+  background-image: url('./img/hiver.jpg');
+  min-height: 70%;
+}
+.pimg4{
+  background-image: url('./img/printemps.jpg');
+  min-height: 70%;
+}
+.pimg5{
+  background-image: url('./img/summer.jpg');
+  min-height: 70%;
+}
+
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-ligth{
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border{
+  background: linear-gradient(#48494a, #282e34);
+  color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+.ptext .border-trans{
+  background-color: transparent;
+}
+
+footer {
+  padding: 5px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(#48494a, #282e34);
+}
+ion-icon {
+  border-radius: 50px;
+  background: #fff;
+  padding: 5px;
+  margin: 0 15px;
+  font-size: 15px;
+  vertical-align:middle;
+  color: #282e34;
+}
